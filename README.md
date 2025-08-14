@@ -3,7 +3,7 @@
 Base is a firmware for the STM32 "Blue Pill" (STM32F103C8T6) development board, built using the Arm CMSIS library. It is designed to let you control and program the board entirely through a connected terminal, in the style of a Unix shell. Right now, Base provides a responsive USB‑serial command line for interacting with the board's hardware in real time. In the long term, the goal is to evolve Base into a self‑contained ARM‑based computing environment, a miniature workstation you can connect to, develop on, and run programs directly within, without relying on an external PC for compiling or execution. This will make the Blue Pill function not just as a device you control, but as a complete, always‑ready computer in its own right.
 
 ### Build and Flash
-Run `make` to compile the firmware and automatically flash base.bin to your Blue Pill using `st-flash`.
+Run `make` to compile the firmware and automatically flash `base.bin` to your Blue Pill using `st-flash`.
 
 ### Connect and Use
 1. Plug the Blue Pill board into your PC via USB
