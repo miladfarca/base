@@ -13,12 +13,12 @@ CC = $(TOOLS)-gcc -mcpu=cortex-m3 -mthumb -fno-builtin-printf -fno-builtin -I$(C
 OBJS = src/CMSIS/startup_stm32f10x_md.o \
        src/CMSIS/system_stm32f10x.o \
        src/main.o \
-       src/driver/cqeue.o \
        src/driver/usb.o \
        src/driver/usb_enum.o \
        src/driver/usart.o \
        src/driver/timer.o \
        src/utils/utils.o \
+       src/utils/cqeue.o \
        src/builtins/terminal.o \
        src/builtins/help.o \
        src/builtins/echo.o
